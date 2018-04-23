@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+// SCROLL STYLES
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(114, 114, 114);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(77, 77, 77);
+}

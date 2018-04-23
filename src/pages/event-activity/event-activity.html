@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>{{ title }}_{{ activity.title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let item of activity.list" (click)="goToList(activity.title, item)">
+      <ion-label>{{ item.title }}</ion-label>
+    </ion-item>
+  </ion-list>    
+</ion-content>
