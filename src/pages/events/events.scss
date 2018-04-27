@@ -1,19 +1,53 @@
 page-events {
   
   ion-navbar {
-    box-shadow: 0px 0px 1px 1px;
+    box-shadow: 0px 0px 4px 3px #5F6D79;
   }
 
-  .hero-img {
+  .jumbo-img {
     width: 100%;
     background-position: center center;
     background-size: cover;
-    height: 30vh;
+    height: 33vh;
+    text-align: center;
+    position: relative;
+
+    .jumbo-title {
+      position: absolute;
+      top: 33%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .jumbo-subtitle {
+      font-size: 1.0em;
+      position: absolute;
+      top: 53%;
+      width: 100%;
+      color: #fff;
+    }
+
   }
 
   @media only screen and (min-width: 600px) {
-    .hero-img {
+    .jumbo-img {
       height: 40vh;
+
+      .jumbo-title {
+        font-size: 3.0em;
+      }
+      
+      .jumbo-subtitle {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  @media only screen and (max-height: 400px) {
+    .jumbo-img {
+      height: 85vh;
     }
   }
   
@@ -35,7 +69,7 @@ page-events {
       text-align: center;
       background-position: center center;
       background-size: cover;
-      background-color: rgb(201, 201, 201);
+      background-color: rgb(200, 200, 200);
       height: 175px;
 
       ion-img {
@@ -49,7 +83,7 @@ page-events {
         font-size: 1.0em;
         width: 100%;
         font-weight: bold;
-        color: rgba(0, 0, 0, 0.4);
+        color: #fff;
       }
 
     }

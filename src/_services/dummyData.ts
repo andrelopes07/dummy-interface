@@ -1359,6 +1359,10 @@ export const DUMMY_DATA: DummyEvent[] = [
             ]
           }
         ]
+      },
+      {
+        "title": "Day 5",
+        "imgUrl": "",
       }
     ]
   },

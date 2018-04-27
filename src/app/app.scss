@@ -15,8 +15,12 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-// SCROLL STYLES
+// MENU WIDTH ON DESKTOP
+.split-pane-visible > ion-menu {
+    max-width: 25vw!important;
+}
 
+// SCROLL STYLES
 /* width */
 ::-webkit-scrollbar {
     width: 4px;

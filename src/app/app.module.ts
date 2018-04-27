@@ -12,7 +12,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DummyDataProvider } from '../_services/dummy-data.provider';
 import { EventActivityPage } from '../pages/event-activity/event-activity';
 import { ActivityListPage } from '../pages/activity-list/activity-list';
-import { SafePipe } from '../_pipes/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { SafePipe } from '../_pipes/safe.pipe';
     EventsPage,
     TabsPage,
     EventActivityPage,
-    ActivityListPage,
-    SafePipe
+    ActivityListPage
   ],
   imports: [
     BrowserModule,

@@ -25,7 +25,7 @@ export class MyApp {
     // Set our app's pages
     this.pages = [
       { title: 'Meet Mindera', component: TabsPage },
-      { title: 'Awesome Unknown Page', component: '' },     
+      { title: 'About', component: '' },     
     ];
   }
 
