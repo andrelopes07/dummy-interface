@@ -6,18 +6,18 @@ export const DUMMY_DATA: DummyEvent[] = [
     "activities": [
       {
         "title": "Day 1",
-        "imgUrl": "../assets/imgs/brooke-lark-609911-unsplash-min.jpg",
+        "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg",
         "list": [
           {
             "title": "List 01",
             "description": [
               {
                 "title": "Description 01",
-                "imgUrl": "../assets/imgs/brooke-lark-609911-unsplash-min.jpg"
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 02",
-                "imgUrl": "../assets/imgs/brooke-lark-609911-unsplash-min.jpg"
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 03",
@@ -25,7 +25,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 04",
-                "imgUrl": "../assets/imgs/brooke-lark-609911-unsplash-min.jpg"
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 05",
@@ -37,7 +37,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 07",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 08",
@@ -1023,7 +1023,7 @@ export const DUMMY_DATA: DummyEvent[] = [
       },
       {
         "title": "Day 4",
-        "imgUrl": "",
+        "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg",
         "list": [
           {
             "title": "List 01",
@@ -1190,11 +1190,11 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 04",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 05",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 06",
@@ -1219,7 +1219,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 02",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 03",
@@ -1252,11 +1252,11 @@ export const DUMMY_DATA: DummyEvent[] = [
             "description": [
               {
                 "title": "Description 01",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 02",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 03",
@@ -1276,7 +1276,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 07",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 08",
@@ -1301,7 +1301,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 04",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 05",
@@ -1317,7 +1317,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 08",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               }
             ]
           },
@@ -1342,7 +1342,7 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 05",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               },
               {
                 "title": "Description 06",
@@ -1354,16 +1354,13 @@ export const DUMMY_DATA: DummyEvent[] = [
               },
               {
                 "title": "Description 08",
-                "imgUrl": ""
+                "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg"
               }
             ]
           }
         ]
       },
-      {
-        "title": "Day 5",
-        "imgUrl": "",
-      }
+      
     ]
   },
   {
@@ -3071,7 +3068,7 @@ export const DUMMY_DATA: DummyEvent[] = [
       },
       {
         "title": "Day 2",
-        "imgUrl": "",
+        "imgUrl": "http://res.cloudinary.com/ifrit07/image/upload/v1524863344/thumb-img_onjtn2.jpg",
         "list": [
           {
             "title": "List 01",

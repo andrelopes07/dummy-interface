@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
+import { AboutPage } from '../pages/about/about';
 
 @Component({
   templateUrl: 'app.html'
@@ -25,7 +26,7 @@ export class MyApp {
     // Set our app's pages
     this.pages = [
       { title: 'Meet Mindera', component: TabsPage },
-      { title: 'About', component: '' },     
+      { title: 'About the Author', component: AboutPage },     
     ];
   }
 

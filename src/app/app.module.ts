@@ -12,6 +12,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DummyDataProvider } from '../_services/dummy-data.provider';
 import { EventActivityPage } from '../pages/event-activity/event-activity';
 import { ActivityListPage } from '../pages/activity-list/activity-list';
+import { AboutPage } from '../pages/about/about';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ActivityListPage } from '../pages/activity-list/activity-list';
     EventsPage,
     TabsPage,
     EventActivityPage,
-    ActivityListPage
+    ActivityListPage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { ActivityListPage } from '../pages/activity-list/activity-list';
     EventsPage,
     TabsPage,
     EventActivityPage,
-    ActivityListPage
+    ActivityListPage,
+    AboutPage
   ],
   providers: [
     StatusBar,
